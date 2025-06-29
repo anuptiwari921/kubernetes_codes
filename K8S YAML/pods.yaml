@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx-container
-    image: nginx:latest
+    image: netflix:latest
     ports:
     - containerPort: 80
     volumeMounts:
